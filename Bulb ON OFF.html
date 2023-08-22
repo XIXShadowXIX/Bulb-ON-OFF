@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb ON OFF</title>
+    <link rel="stylesheet" href="Bulb ON OFF.css">
+    <style>
+        body,html{
+            height:100%;
+        }
+        body{
+            background-image: url('/Images/istockphoto-1474723302-170667a.webp');
+            height:100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="Boff">
+        <span style="--i:1">B</span>
+        <span style="--i:2">u</span>
+        <span style="--i:3">l</span>
+        <span style="--i:4">b</span>
+        <span style="--i:5">-</span>
+        <span style="--i:6">O </span>
+        <span style="--i:7">n</span>
+        <span style="--i:8"></span>
+        <span style="--i:9">O</span>
+        <span style="--i:10">f</span>
+        <span style="--i:11">f</span>
+    </div>
+    <section>
+        <img src="https://i.postimg.cc/KjK1wL3c/bulb-off.png" id="bulb" width="200">
+        <div class="btn_container"><button id="on" class="bulb_btn" onclick="bulb_on()">on</button>
+        <button id="off" class="bulb_btn" onclick="bulb_off()">off</button></div>
+    </section>
+    <script src="Bulb ON OFF.js"></script>    
+</body>
+</html>
